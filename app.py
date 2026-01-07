@@ -1,3 +1,5 @@
-user="User"
-print(f'Hello, {user}')
-print(f'User name:{user}')
+def add(a, b):
+    return a + b
+
+if __name__ == "__main__":
+    print(add(2, 3))
